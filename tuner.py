@@ -16,8 +16,8 @@ experiment.config.tuner.name = 'TPE'
 experiment.config.tuner.class_args['optimize_mode'] = 'maximize'
 experiment.config.search_space = {
     'lr': {'_type': 'loguniform', '_value': [1e-5, 1e-3]},
-    # 'model_name': {'_type': 'choice', '_value': ['facebookAI/roberta-large',
-    #                                              'microsoft/deberta-large']},
+    'model_name': {'_type': 'choice', '_value': ['facebookAI/roberta-large',
+                                                 'microsoft/deberta-large']},
     'optimizer': {'_type': 'choice', '_value': ['Adam', 'AdamW']},
     'bert_output': {'_type': 'choice', '_value': ['pooler', 'pooled_mean', 'last_4']},
     'lora_dropout': {'_type': 'uniform', '_value': [.0, .4]},
