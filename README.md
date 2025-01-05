@@ -1,7 +1,5 @@
 # Fine-tune RoBERTa/DeBERTa models to predict emotion labels on text data
-This project sets a pipeline to fine-tune pretrained large language models to automatically predict emotion labels on text data.
-This work is a part of the dissertation project to examine the dynamics of suicide-related emotions and suicide risk from 
-moment to moment. The chosen emotions include guilt, shame, loneliness, anger, sadness, depressed, and anxiety.
+This project sets a pipeline to fine-tune pretrained large language models to automatically predict emotion labels on text data. Users can customize hyperparameters in the `config.py` and `tuner.py`. This work is a part of the dissertation project to examine the dynamics of suicide-related emotions and suicide risk from moment to moment. The chosen emotions include guilt, shame, loneliness, anger, sadness, depressed, and anxiety.
 
 Models include Facebook RoBERTa and Microsoft DeBERTa (base and/or large, parameter sizes 100M+ to 300M+). Hyperparameter
 tuning is performed using Microsoft NNI (Neural Network Intelligence) toolkit 2.5. Computational cost is optimized by using 
