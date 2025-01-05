@@ -5,7 +5,7 @@ Models include Facebook RoBERTa and Microsoft DeBERTa (base and/or large, parame
 tuning is performed using Microsoft NNI (Neural Network Intelligence) toolkit 2.5. Computational cost is optimized by using 
 distributed training on multiple GPUs, automatic mixed precision (AMP) training, and low-rank adaptation (LoRA).
 
-Special thanks to Maitrey Mehta and Mattia Medina-Grespan for their suggestions on codes.  
+Special thanks to Maitrey Mehta and Mattia Medina-Grespan for their suggestions in the codes.  
 
 ## Copy the repository
 ```bash
