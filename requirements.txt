@@ -1,0 +1,7 @@
+numpy
+nni==2.5
+transformers
+scikit-learn
+tqdm
+peft
+pandas
